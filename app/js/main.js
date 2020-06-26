@@ -57,3 +57,31 @@ buttonNext.onclick = function () {
 };
 
 
+//pick Plan///
+let pick = document.querySelector('.var');
+let individual = document.querySelector('.individual');
+let company = document.querySelector('.company');
+
+individual.onclick = function (){
+    pick.style.cssText = 'left: 3px;' +
+        'right: auto;';
+
+};
+
+company.onclick = function (){
+    pick.style.cssText = 'left: auto;' +
+        'right: 3px;';
+};
+
+//pick tarif///
+let standart = document.querySelector('.started');
+let pro = document.querySelector('.pro');
+
+standart.onclick = function () {
+    standart.classList.toggle('active-plan');
+};
+pro.onclick = function () {
+    pro.classList.toggle('active-plan');
+};
+
+
