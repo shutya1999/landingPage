@@ -22,4 +22,38 @@ window.onclick = function (e) {
         header.classList.remove('blur');
         document.body.style.overflow = 'auto';
     }
+};
+
+// SLIDER
+let textSlider = document.querySelectorAll('.slider-item');
+let buttonPrew = document.querySelector('.prew');
+let buttonNext = document.querySelector('.next');
+let imgUser = document.querySelector('.imgUser');
+let current = 0;
+
+function slider(){
+    for (let i = 0; i<textSlider.length; i++){
+        textSlider[i].classList.add('hidden-slider');
+    }
+    textSlider[current].classList.remove('hidden-slider');
 }
+slider();
+
+buttonPrew.onclick = function () {
+    if (current - 1 == -1){
+        current = textSlider.length - 1;
+    }else {
+        current--;
+    }
+    slider()
+};
+buttonNext.onclick = function () {
+    if (current + 1 == textSlider.length){
+        current = 0;
+    }else {
+        current++;
+    }
+    slider()
+};
+
+
