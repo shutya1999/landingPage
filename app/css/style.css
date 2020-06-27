@@ -611,7 +611,7 @@ a {
 
 .line {
   border: none;
-  width: 100%;
+  width: 90%;
   height: 1px;
   background-color: #cecece;
   color: #cecece;
@@ -1116,4 +1116,135 @@ a {
 .active-plan button {
   background-color: #267df4;
   color: white;
+}
+
+.subscribe {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe h1 {
+  font: 42px "Varela Round", sans-serif;
+  color: #26292c;
+  text-align: center;
+}
+
+.subscribe h4 {
+  font: 14px "Lato", sans-serif;
+  color: #8c8f94;
+  margin-top: -50px;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 100%;
+  max-width: 1170px;
+  margin: 90px auto 0 auto;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+}
+
+.socials h3 {
+  font: 14px "Lato", sans-serif;
+  color: #8c8f94;
+  margin: 35px 0 35px 0;
+}
+
+.downloadStore {
+  display: flex;
+  background-color: black;
+  width: 140px;
+  height: 40px;
+}
+
+.social-network {
+  margin-top: -90px;
+  margin-bottom: 130px;
+}
+
+.social-network img {
+  margin-right: 20px;
+}
+
+.footer-menu {
+  width: 60%;
+}
+
+.menu1 {
+  display: flex;
+}
+
+.menu1 ul {
+  list-style: none;
+  margin: 0 50px;
+  padding: 0;
+}
+
+.menu1 li {
+  margin: 20px 0;
+}
+
+.menu1 li a {
+  font: 16px "Lato", sans-serif;
+  color: #a8abae;
+}
+
+.menu1 li a:hover {
+  color: #26272d;
+}
+
+.menu1 li:first-child {
+  font: 14px "Lato", sans-serif;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.copyrights {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.freebies {
+  margin: 35px 0;
+  width: 50%;
+}
+
+.freebies span {
+  font: 14px "Lato", sans-serif;
+  color: #8c8f94;
+}
+
+.freebies a {
+  font: 14px "Lato", sans-serif;
+  color: #3b55e6;
+  text-decoration: underline;
+}
+
+.logo-craft {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo-craft h6 {
+  margin: 0 10px 0 0;
+  font: 9px "Lato", sans-serif;
+  font-weight: bold;
+  color: #26272d;
 }
